@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="SecureTrack: ferramenta educacional de autoavaliação de práticas de desenvolvimento seguro.">
+  <title>SecureTrack</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <p class="brand"><img src="img/favicon.svg" alt="" width="28" height="28"> SecureTrack</p>
+      <p class="tagline">Autoavaliação educacional de desenvolvimento seguro</p>
+    </div>
+    <nav class="wrap" aria-label="Seções">
+      <ul class="nav">
+        <li><a href="#painel" data-route-link>Dashboard</a></li>
+        <li><a href="#projetos" data-route-link>Projetos</a></li>
+        <li><a href="#avaliacao" data-route-link>Avaliação</a></li>
+        <li><a href="#plano" data-route-link>Plano de melhorias</a></li>
+        <li><a href="#dados" data-route-link>Backup e dados</a></li>
+        <li><a href="#sobre" data-route-link>Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrap">
+    <div id="storage-banner" class="callout callout-error" role="alert" hidden></div>
+    <div id="global-status" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript>
+      <p class="callout callout-error">O SecureTrack precisa de JavaScript habilitado e deve ser aberto por um servidor HTTP local (veja o README).</p>
+    </noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Ferramenta educacional de autoavaliação. Os resultados não representam auditoria, certificação, conformidade integral nem pontuação oficial do NIST SSDF, OWASP SAMM ou Microsoft SDL.</p>
+      <p>Os dados ficam somente neste navegador. Exporte backups regularmente.</p>
+    </div>
+  </footer>
+</body>
+</html>

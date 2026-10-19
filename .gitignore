@@ -1,0 +1,17 @@
+# Dependências e artefatos locais (o projeto não usa dependências de execução)
+node_modules/
+coverage/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Nunca versionar segredos ou backups com dados reais
+.env
+.env.*
+*.pem
+*.key
+securetrack-backup-*.json
+securetrack-conteudo-bruto-*.txt

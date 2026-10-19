@@ -1,0 +1,15 @@
+{
+  "name": "securetrack",
+  "version": "1.0.0",
+  "description": "Ferramenta educacional de autoavaliação de práticas de desenvolvimento seguro (S-SDLC).",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node scripts/serve.js 8000"
+  }
+}

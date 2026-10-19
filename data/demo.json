@@ -1,0 +1,151 @@
+{
+  "format": "securetrack-export",
+  "formatVersion": 1,
+  "catalogVersion": "1.0.0",
+  "exportedAt": "2026-10-02T16:00:00.000Z",
+  "projects": [
+    {
+      "id": "p_9a7c3e51d2b04f68",
+      "name": "GuitarScore — demonstração",
+      "description": "[Dados simulados] Projeto fictício usado apenas para demonstrar o SecureTrack: um catálogo pessoal de guitarras com avaliações. O GuitarScore não foi construído, testado nem auditado; todas as situações, evidências e ações abaixo são exemplos inventados para fins didáticos.",
+      "repositoryUrl": "",
+      "technologies": "[Simulado] Aplicação web fictícia",
+      "createdAt": "2026-10-01T12:00:00.000Z",
+      "updatedAt": "2026-10-01T12:00:00.000Z"
+    }
+  ],
+  "assessments": [
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-01",
+      "status": "implementado",
+      "priority": "alta",
+      "evidenceText": "[Simulado] Exemplo de evidência: lista de requisitos de segurança do catálogo (documento fictício, não existe).",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-02",
+      "status": "parcial",
+      "priority": "alta",
+      "evidenceText": "[Simulado] Exemplo: inventário de dados iniciado apenas para a tabela de guitarras.",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Classificar também os dados das avaliações e dos perfis de usuário.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-03",
+      "status": "nao_implementado",
+      "priority": "alta",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Realizar modelagem de ameaças (STRIDE) do fluxo de cadastro e avaliação de guitarras.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-04",
+      "status": "parcial",
+      "priority": "media",
+      "evidenceText": "[Simulado] Exemplo: rotas administrativas listadas, mas sem revisão de permissões.",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-05",
+      "status": "implementado",
+      "priority": "alta",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-07",
+      "status": "implementado",
+      "priority": "alta",
+      "evidenceText": "[Simulado] Exemplo: manifesto e lockfile de dependências versionados (ilustrativo).",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-08",
+      "status": "parcial",
+      "priority": "alta",
+      "evidenceText": "[Simulado] Exemplo: .gitignore cobre arquivos de configuração local.",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Ativar proteção da branch principal e revisar o histórico em busca de segredos.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-09",
+      "status": "nao_implementado",
+      "priority": "media",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Adotar revisão por pares obrigatória antes do merge.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-10",
+      "status": "parcial",
+      "priority": "alta",
+      "evidenceText": "[Simulado] Exemplo: testes funcionais do cadastro existem; faltam casos negativos.",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Adicionar testes de rejeição de entradas inválidas e de acesso indevido.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-12",
+      "status": "implementado",
+      "priority": "media",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-13",
+      "status": "nao_aplicavel",
+      "priority": "baixa",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "[Simulado] Na demonstração, o projeto não distribui versões a terceiros.",
+      "action": "",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    },
+    {
+      "projectId": "p_9a7c3e51d2b04f68",
+      "controlId": "ST-14",
+      "status": "nao_implementado",
+      "priority": "alta",
+      "evidenceText": "",
+      "evidenceUrl": "",
+      "justification": "",
+      "action": "Criar SECURITY.md com orientação para comunicação responsável de vulnerabilidades.",
+      "updatedAt": "2026-10-02T15:30:00.000Z"
+    }
+  ]
+}

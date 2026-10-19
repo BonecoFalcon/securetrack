@@ -1,0 +1,33 @@
+name: Testes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Permissões mínimas: o workflow só precisa ler o código.
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        node-version: ['22.x', '24.x']
+    steps:
+      # Ações fixadas por SHA completo do commit (obtido com `git ls-remote` em 2026-10-18).
+      # Reconfira o SHA antes de atualizar; não use tags móveis.
+      - name: Obter código
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Configurar Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Executar testes
+        run: npm test
